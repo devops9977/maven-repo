@@ -6,6 +6,10 @@ stage('Test')
 {
 echo "I am in Test stage"
 }
+stage('Wait')
+{
+echo "I am in Wait stage"
+}
 stage('Deploy')
 {
 echo "I am in Deploy stage"
