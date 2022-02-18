@@ -14,8 +14,4 @@ stage('Archieve')
 {
 echo "I am in Archieve stage" 
 }
-stage('Advance')
-{
-echo "I am in Advance stage" 
-}
 }
