@@ -18,8 +18,4 @@ stage('Advance')
 {
 echo "I am in Advance stage" 
 }
-stage('Multi-level')
-{
-echo "I am in Multi-level stage"
-}
 }
