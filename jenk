@@ -11,6 +11,11 @@ pipeline {
                 echo "I am Testing job" 
             }
         }
+        stage('New'){
+            steps {
+                echo "I am New job" 
+            }
+        }
         stage('Deploy') {
             steps {
                 echo "I am Deploying job"
