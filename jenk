@@ -6,11 +6,6 @@ pipeline {
                 echo "I am Building job" 
             }
         }
-        stage('Test'){
-            steps {
-                echo "I am Testing job" 
-            }
-        }
         stage('New'){
             steps {
                 echo "I am New job" 
